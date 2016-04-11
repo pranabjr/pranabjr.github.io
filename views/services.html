@@ -1,0 +1,31 @@
+<section class="shade1" id="services">
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2><span class="label">Services</span></h2>
+                    
+                </div>
+            </div>
+            <div class="row" style="margin-bottom:30px">
+                <div class="col-lg-3 col-lg-offset-2 text-justify">
+                    <p>GapCo focuses on quality, on time delivery and cost-effective software development services. With a vision of creating a competitive advantage in software development industry and becoming the most valued partner or our clients.
+                    </p>
+                    <br>
+                    <p>
+                    <img ng-src="img/services.png" class="img-responsive"/>
+                    </p>
+                </div>
+                <div class="col-lg-6 text-justify">
+                    <div class="panel panel-primary hvr-grow" ng-repeat="sv in serv">
+                        <div class="panel-heading">{{sv.name}}</div>
+                        <div class="panel-body" style="color:black">{{sv.description}}</div>
+                    </div>
+                </div>
+              
+            </div>
+            
+            
+        </div>
+        
+        </section>
